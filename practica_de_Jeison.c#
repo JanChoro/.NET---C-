@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppDJ
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            String nombre = "";
+            int edad = 0;
+            Console.WriteLine("Dime tu nombre");
+            /**/
+            nombre = Console.ReadLine();
+            Console.WriteLine("Dime tu edad");
+            edad = int.Parse(Console.ReadLine());
+            /*Imprimimos*/
+            Console.WriteLine("Nombre: " + nombre);
+            Console.WriteLine("Edad: " +  edad);
+
+        }
+    }
+}
